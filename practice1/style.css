@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  background-color: aqua;
+}
+.rightItems{
+  display: flex;
+  align-items: center;
+}
+.list {
+  list-style: none;
+  display: flex;
+}
+.list li{
+  padding: 10px;
+}
