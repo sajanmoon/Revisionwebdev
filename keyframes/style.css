@@ -1,0 +1,20 @@
+div {
+  height: 100px;
+  width: 100px;
+  border: 5px solid gray;
+  border-radius: 50%;
+  border-top: 5px solid black;
+  /* background-color: red; */
+  animation-name: colorAnimate;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes colorAnimate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

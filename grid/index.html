@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(100px, 1fr));
+        grid-template-areas:
+          "nav nav nav"
+          "side main main"
+          "footer footer footer";
+      }
+      .box {
+        height: 50px;
+        margin: 10px;
+        border: 1px solid black;
+      }
+      .box1 {
+        grid-area: nav;
+      }
+      .box2 {
+        grid-area: side;
+      }
+      .box3 {
+        grid-area: main;
+      }
+      .box4 {
+        grid-area: footer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+      <div class="box box4"></div>
+    </div>
+  </body>
+</html>
