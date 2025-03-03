@@ -1,0 +1,25 @@
+Application for MERN Developer
+
+Dear Vijayalaxmi,
+
+I hope you’re doing well.
+
+I’m reaching out to express my interest in the MERN Developer role at CloudTara Technologies. Instead of just submitting my CV, I wanted to provide a more comprehensive view of my work by sharing my portfolio and GitHub repository. I believe this will effectively showcase my expertise and passion for full-stack development.
+
+As a Fullstack Engineer, I have experience building dynamic and scalable applications. One of my key projects, Dev Social, is a Developer Networking Platform built with React, Redux, Node.js, Express, MongoDB, and Socket.io. This project integrates user authentication, real-time chat, and a seamless UI, demonstrating my ability to create both engaging frontend experiences and efficient backend systems.
+
+You can explore my work here:
+Portfolio: https:// sajanmoonportfolio.netlify. app/
+GitHub: https://github.com/ sajanmoon
+
+I came across the job listing via Instahyre:
+https://www.instahyre.com/job- 298676-full-stack-developer- mern-stack-at-cloudtara- technologies-bangalore-work- from-home/
+
+I’d love the opportunity to discuss how my skills align with your team’s needs. Please let me know if we can connect at your convenience.
+
+Looking forward to your response.
+
+Best regards,
+Sajan Moon
+sajanmoon5@gmail.com
+9834850922

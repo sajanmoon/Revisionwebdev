@@ -7,7 +7,7 @@
 
 # 2.Inline-Outline
 
-inline
+## inline
 
 <div>
 <hr>
@@ -15,8 +15,8 @@ inline
 <nav>
 <p>
 <article>
----------------------
-outline
+ 
+## outline
 <a>
 <br>
 <button>
@@ -81,7 +81,6 @@ color:red
       <label for="male">male</label>
       <input type="radio" name="gender" id="female" />
       <label for="female">female</label>
-
 
 # 9.keyframes
 
