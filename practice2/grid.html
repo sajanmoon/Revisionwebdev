@@ -7,24 +7,28 @@
     <style>
       .container {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        max-width: 1000px;
-        margin: auto;
-        gap: 5px;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(4, 100px);
+        gap: 10px;
       }
       .box {
-        /* height: 250px; */
-        /* width: 250px; */
-        /* border: 1px solid black; */
-      }
-      img {
-        width: 100%;
-        height: 100%;
+        border: 1px solid black;
         border-radius: 10px;
-        object-fit: cover;
+        overflow: hidden;
       }
       .box1 {
-        grid-area: 1/1 / span 1 / span 2;
+        grid-area: 1/1 / span 2 / span 2;
+      }
+      .box2 {
+        grid-area: 1/3 / span 2 / span 1;
+      }
+      .box3 {
+        grid-area: 3/1 / span 1 / span 3;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
       }
     </style>
   </head>
@@ -36,18 +40,15 @@
           alt=""
         />
       </div>
-      <div class="box">
+      <div class="box box2">
         <img
-          src="../practice/images/karl-moore-v3LDDBTgkkU-unsplash.jpg"
+          src="../practice/images/eric-dekker-0jqI8_MRBKU-unsplash.jpg"
           alt=""
         />
       </div>
-      <div class="box">
-        <img src="../practice/images/sumup-N8Snv9CY37Q-unsplash.jpg" alt="" />
-      </div>
-      <div class="box">
+      <div class="box box3">
         <img
-          src="../practice/images/zalfa-imani-oQ7qS2_Kvh8-unsplash.jpg"
+          src="../practice/images/eric-dekker-0jqI8_MRBKU-unsplash.jpg"
           alt=""
         />
       </div>
@@ -59,22 +60,7 @@
       </div>
       <div class="box">
         <img
-          src="../practice/images/karl-moore-v3LDDBTgkkU-unsplash.jpg"
-          alt=""
-        />
-      </div>
-      <div class="box">
-        <img src="../practice/images/sumup-N8Snv9CY37Q-unsplash.jpg" alt="" />
-      </div>
-      <div class="box">
-        <img
-          src="../practice/images/zalfa-imani-oQ7qS2_Kvh8-unsplash.jpg"
-          alt=""
-        />
-      </div>
-      <div class="box">
-        <img
-          src="../practice/images/zalfa-imani-oQ7qS2_Kvh8-unsplash.jpg"
+          src="../practice/images/eric-dekker-0jqI8_MRBKU-unsplash.jpg"
           alt=""
         />
       </div>
@@ -86,12 +72,21 @@
       </div>
       <div class="box">
         <img
-          src="../practice/images/karl-moore-v3LDDBTgkkU-unsplash.jpg"
+          src="../practice/images/eric-dekker-0jqI8_MRBKU-unsplash.jpg"
           alt=""
         />
       </div>
       <div class="box">
-        <img src="../practice/images/sumup-N8Snv9CY37Q-unsplash.jpg" alt="" />
+        <img
+          src="../practice/images/eric-dekker-0jqI8_MRBKU-unsplash.jpg"
+          alt=""
+        />
+      </div>
+      <div class="box">
+        <img
+          src="../practice/images/eric-dekker-0jqI8_MRBKU-unsplash.jpg"
+          alt=""
+        />
       </div>
     </div>
   </body>
